@@ -105,8 +105,3 @@ printout
 dreams
 motivation
 }
-
-
-
-
-

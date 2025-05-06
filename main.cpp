@@ -15,5 +15,8 @@ int main(int argc, char** argv) {
 
     // Instantiate RandomSentenceGenerator, print the grammar, then print a random sentence.
     RandomSentenceGenerator rand(fileName);
-    // rand.printGrammar();    
+    rand.printGrammar();
+    printf("Random sentence (seed = %d)\n\n", seed);
+    printf("%s\n", rand.randomSentence().c_str());
+    return 0;
 }
